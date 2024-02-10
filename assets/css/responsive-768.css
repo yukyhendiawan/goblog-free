@@ -1,0 +1,98 @@
+/* =========================================
+============ TABLE OF CONTENTS: ============
+* Responsive Grids Layout
+* Responsive Archive File
+* Responsive Author File
+* Responsive Single File
+* Responsive Footer Widget Default File
+* Responsive Footer Navigasi File
+========================================= */
+/* =================== Responsive Grids Layout =================== */
+.grids .box-content {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.grids .content {
+    border-bottom: none;
+    margin-bottom: 15px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.grids .content-gambar {
+    width: 100%;
+}
+
+/* Grids2 */
+.grids2 .box-content:nth-child(odd) .content {
+    width: 100%;
+}
+
+/* =================== Responsive Archive File =================== */
+.main-archive .archive-title {
+    margin: 3% 0;
+}
+
+/* =================== Responsive Author File =================== */
+.main-author .author-box,
+.main-author .author-box .author-sosmed {
+    justify-content: center;
+}
+
+.author-box .author-info {
+    width: 90%;
+}
+
+.author-box .author-info h4,
+.author-box .author-info small {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* =================== Responsive Single File =================== */
+.box-sosmed-share .facebook a,
+.box-sosmed-share .twitter a,
+.box-sosmed-share .whatsapp a,
+.box-sosmed-share .pinterest a,
+.box-sosmed-share .linkedin a {
+    width: auto;
+    padding: 4px 20px;
+}
+
+.main-single .author-box {
+    justify-content: center;
+}
+
+.main-single .whatsapp {
+    display: block;
+}
+
+/* =================== Responsive Footer Widget Default File =================== */
+#footer .footer-widgets {
+    width: 100%;
+}
+
+#footer .widget {
+    margin: 3% 0;
+}
+
+/* =================== Responsive Footer Navigasi File =================== */
+#footer .box-navigasi-footer {
+    display: block;
+    padding: 3%;
+}
+
+#footer #navigasi li,
+#footer #navigasi li:first-child {
+    display: block;
+    padding: 2px;
+    text-align: center;
+}
+
+#footer .footer-sosmed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
